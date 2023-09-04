@@ -216,6 +216,7 @@ def main():
       offset += 2
   
   saveName = songName.lower().replace('(', '').replace(')', '').replace(' ', '_')
+  print(f"Saving under {saveName}")
   schem.save('', saveName, mcschematic.Version.JE_1_20)
   print('Your schematic was successfully generated and saved under "' + saveName + '.schem"')
 

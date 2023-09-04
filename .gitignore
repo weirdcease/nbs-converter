@@ -4,3 +4,6 @@ __pycache__
 !example_songs/*.nbs
 *.schem
 *.txt
+songs/*
+formatted/*
+schematics/*
